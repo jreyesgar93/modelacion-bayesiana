@@ -36,10 +36,7 @@
   - [[#configuración-renv][Configuración renv]]
   - [[#trabajando-con-ambiente-dockerizado][Trabajando con ambiente Dockerizado]]
   - [[#configuración-de-docker][Configuración de Docker]]
-- [[#tareas][Tareas]]
-- [[#dudas][¿Dudas?]]
 - [[#contribuidores][Contribuidores]]
-- [[#bibliografía][Bibliografía]]
 :END:
 
 * Introducción                                                      
@@ -295,27 +292,11 @@ internet y utilizar la contraseña especificada. Se puede agregar la bandera de
 ~-v~ si se quiere acceder a un folder local. Mas información de volúmenes se
 pueden encontrar en la [[https://docs.docker.com/storage/volumes/][documentación]].
 
-* Tareas 
-
-Las primeras tareas del semestre son básicamente configuración y es recomendable
-hacerlas si no cuentan con experiencia en: ~Git~, ~Github~, ~R~ y el ~tidyverse~.
-
-Las tareas las gestionaremos a través de ~Github Classroom~ lo cual me permite
-administrar sus entregas como proyectos de ~Git~. Además, habrá ejercicios de las
-tareas que tendrán mecanismos de calificación automatizada.
-
-#+REVEAL: split
-#+DOWNLOADED: screenshot @ 2022-06-24 18:23:16
-#+attr_html: :width 400 :align center
-[[file:images/20220624-182316_screenshot.png]]
-
-* ¿Dudas?
-
 * Contribuidores                                                     :github:
 
 [[https://github.com/AdrianTJ][AdrianTJ]] (ambiente en ~Docker~). 
 
-* Bibliografía                                                        :latex:
+* COMMENT Bibliografía                                                        :latex:
 \nocite{*}
 bibliographystyle:abbrvnat
 bibliography:references.bib
